@@ -18,12 +18,15 @@ data:
       skipApprovalScreen: true
     enablePasswordDB: true
     staticPasswords:
-    - email: user@kubeflow.org
-      hash: $2y$12$4K/VkmDd1q1Orb3xAt82zu8gk7Ad6ReFR4LCP9UeYE90NLiN9Df72
+    - email: muneer.ahmad@netapp.com
+      hash: $2y$12$MK7tPWbY1MHTgdGRxhSbzOYYmUl9K/aEnJHqkFMAvYz6VSh1xh3Xu
       # https://github.com/dexidp/dex/pull/1601/commits
       # FIXME: Use hashFromEnv instead
-      username: user
+      username: muneer
       userID: "15841185641784"
+    - email: ekin@netapp.com
+      hash: $2y$12$MK7tPWbY1MHTgdGRxhSbzOYYmUl9K/aEnJHqkFMAvYz6VSh1xh3Xu
+      username: ekin
     staticClients:
     # https://github.com/dexidp/dex/pull/1664
     - idEnv: OIDC_CLIENT_ID
